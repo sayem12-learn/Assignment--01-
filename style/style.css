@@ -27,7 +27,7 @@
 }
 .nav-title{
     font-size: 34px;
-    font-weight: 99px;
+    font-weight: 900px;
     color: #4E47FF;
     font-weight:900;
 }
@@ -226,4 +226,87 @@
   border-radius: 15px;
 
 
+}
+
+/* table-section */
+
+.form-sec{
+  display: flex;
+  gap: 120px;
+  margin: 150px 250px;
+}
+.form-title{
+  font-size: 85px;
+  font-weight:700px;
+  
+}
+.form-area{
+
+}
+section input[type="text"], section input[type="email"] {
+  height:65;
+  border-radius: 5px;
+  background-color: rgb(249, 247, 247);
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+
+}
+section textarea{
+  height:70px;
+  border-radius: 5px;
+  background-color: rgb(249, 247, 247);
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
+.submit-btn{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom:100px;
+  padding:10px 150px;
+}
+.footer-title{
+  font-size: 80px;
+  font-weight:900;
+  color: #4E47FF;
+  font-weight:900;
+  text-align: center;
+}
+.footer-description{
+  font-size: 14px;
+  font-weight: 300;
+  color: #8987A1;
+  text-align: center;
+  margin: -60px 500px;
+}
+ul{
+  display: flex;
+  gap: 40px;
+  margin:100px 525px ;
+
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color:#4E47FF;
+}
+.footer-sec{
+  background-color: rgb(249, 247, 247) ;
+  /* margin: 105px 450px; */
+   background-position: center;
+  width:1440px;
+  height: 300px;
+  padding :50px;
+
+}
+.btn:hover{
+  font-size: larger;
+    
 }
