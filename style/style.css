@@ -96,6 +96,7 @@
   padding: 0px  140px;
   margin: 60px 170px;
   text-align: center;
+  border-radius: 20px;
  
 }
 .user-title{
@@ -129,4 +130,75 @@
   color: #414048;
   position: relative;
   top: -80px;
+}
+
+/* person style */
+.user-header{
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  position: relative;
+  bottom:-150px;
+
+}
+.user-info{
+  display: flex;
+  margin: 200px 200px 280px 210px;
+  text-align: center;
+  font-size: 18px;
+  color: #757575;
+
+    
+}
+.review-card{
+  margin: 50px 50px 112px -40px ;
+  padding: 24px 24px;
+  box-shadow:0px 6px 50px rgb(195, 186, 186);
+
+  text-align: left;
+  border-radius: 20px;
+
+}
+.title{
+  font-size:25px;
+  font-weight: 700;
+  margin-top:20px;
+}
+.quote{
+  font-size:18px;
+  font-weight: 400px;
+  margin-top: 15px;
+
+}
+.avatar{
+  width: 40px;
+  height:40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+.reviewer-info{
+  position: relative;
+  bottom:70px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.name{
+  font-size: 18px;
+  font-weight: bold;
+}
+.date{
+  font-size: 14px;
+  margin-top:50px;
+  position: relative;
+  left:-140px;
+}
+/* 2nd-banner */
+.banner-title{
+  font-size: 55px;
+  font-weight: 700;
+  text-align: center;
 }
