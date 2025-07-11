@@ -153,7 +153,7 @@
 .review-card{
   margin: 50px 50px 112px -40px ;
   padding: 24px 24px;
-  box-shadow:0px 6px 50px rgb(195, 186, 186);
+  box-shadow:0px 6px 50px rgb(194, 186, 186);
 
   text-align: left;
   border-radius: 20px;
@@ -201,4 +201,29 @@
   font-size: 55px;
   font-weight: 700;
   text-align: center;
+}
+.banner-subtitle{
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin:-50px
+}
+.banner-btn{
+ font-size: 16px;
+ font-weight:300;
+ margin:70px 400px; 
+}
+.banner-img{
+    border-radius:45px;
+    margin: 20px 80px;
+    
+
+}
+.snd-banner{
+  background-color:rgb(249, 247, 247);
+  margin: 150px;
+  padding: 70px 100px;
+  border-radius: 15px;
+
+
 }
